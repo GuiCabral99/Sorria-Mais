@@ -1,0 +1,30 @@
+.page_header {
+  height: 30vw;
+  background-color: #88b7c9;
+  width: 100vw;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  box-shadow: 1px 1px 5px #444;
+}
+
+.top .logo {
+  display: flex;
+  align-items: center;
+  font: 300 1.3rem Roboto;
+}
+
+.top .links a {
+  padding: 1.2rem 1rem;
+  font: 700 1rem Roboto;
+}
+
+.top .links a:hover {
+  color: #cfdfef;
+}
