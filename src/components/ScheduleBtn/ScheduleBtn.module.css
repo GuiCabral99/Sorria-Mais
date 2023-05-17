@@ -1,0 +1,19 @@
+.btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.8rem 0.75rem 0.5rem 0.8rem;
+  background-color: #25d366;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.btn .wpp {
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btn:hover {
+  background-color: #21bd5c;
+}

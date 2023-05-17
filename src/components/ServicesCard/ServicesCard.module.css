@@ -1,0 +1,80 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+}
+
+.card .text h3 {
+  font: 400 1.8rem Roboto;
+  padding: 0.8rem;
+}
+
+.card .text p {
+  padding: 0.5rem 1rem 1rem 1rem;
+  text-align: center;
+  font: 300 1.1rem Roboto;
+}
+
+/* .card .more {
+  margin: 0.5rem 2rem 1.5rem 2rem;
+  padding: 0.8rem;
+  width: 5.8rem;
+
+  text-align: center;
+
+  border-radius: 100px;
+  background-color: #424e68;
+  color: #fff;
+}
+
+.card .more:hover {
+  background-color: #628aa1;
+  transition: 0.1s;
+}
+
+.card .more span {
+  font-style: italic;
+} */
+
+@media (min-width: 700px) {
+  .card {
+    width: 35%;
+    margin-bottom: 0;
+  }
+
+  .card .text {
+    min-height: 16rem;
+    justify-content: flex-start;
+  }
+
+  .card .text h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card .text h3 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,37 @@
+.social_media_container {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  top: 14vh;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  background-color: #aaaaaa70;
+  gap: 15px;
+
+  z-index: 2;
+}
+
+.social_media_container a {
+  border-radius: 50%;
+  background-color: #eee;
+
+  width: 1.8em;
+  height: 1.8rem;
+}
+
+.social_media_container .social_media {
+  border-radius: 50%;
+  background-color: #eee;
+  padding: 0.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #424e68;
+}
+
+.social_media_container a:hover .social_media {
+  padding: 0.3rem;
+  transition: 0.4s;
+}

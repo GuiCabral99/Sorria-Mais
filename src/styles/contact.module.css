@@ -1,0 +1,20 @@
+.main {
+  max-width: 85vw;
+  margin: auto;
+}
+
+.linkActive {
+  text-decoration: underline;
+  text-decoration-color: #6eb7d8;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+}
+
+.linkActive:hover {
+  text-decoration-color: #628aa1;
+  transition: 0.1s;
+}
+
+.page_header_back {
+  background-image: url("/imgs/visit.png");
+}

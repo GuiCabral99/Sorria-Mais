@@ -1,6 +1,220 @@
-.content {
-  max-width: 85vw;
+.page_header_back {
+  background-image: url("/imgs/cover.png");
+}
+
+.main {
+  width: 100vw;
+  margin: auto;
+  color: #424e68;
+}
+
+.main .about {
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.main .about .articleAbout {
   display: flex;
+
+  width: 100%;
   justify-content: center;
+  align-items: center;
+}
+
+.main .about .articleAbout .textAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* width: 30vw; */
+}
+
+.main .about .articleAbout .textAbout h1 {
+  text-align: left;
+  padding: 0 0 0.5rem 0;
+}
+
+.main .about img {
+  display: none;
+}
+
+.main .specialties {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.main .specialties h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  max-width: 20rem;
   margin: auto;
 }
+
+.main .specialties_card {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .witnessContainer {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.main .witnessContainer .slider {
+  margin: auto;
+  width: 18rem;
+  padding-bottom: 2rem;
+}
+
+.main .witnessContainer .slider .witness h1 {
+  width: 18rem;
+  padding-right: 3rem;
+}
+
+.main .witnessContainer .slider .witness p {
+  padding-right: 3rem;
+}
+
+.main .local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+
+.main .local h2 {
+  margin-top: 0.3rem;
+  font: 700 2rem Roboto;
+  padding: 0.8rem;
+}
+
+.main .local .address div {
+  padding-bottom: 1rem;
+}
+
+.main .local p {
+  padding: 0.1rem;
+}
+
+.main .local .address {
+  width: 100%;
+}
+
+.main .local img {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-top: 12px solid #424e68;
+}
+
+.main .btn {
+  width: 100%;
+  height: 4rem;
+  border: 0;
+  border-radius: 5px;
+  font: 400 1.8rem Roboto;
+  color: white;
+  background-color: #04d361;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .btn:hover {
+  background-color: #04bf58;
+  transition: 0.1s;
+}
+
+.main .btn img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 700px) {
+  .main {
+    max-width: 100%;
+  }
+
+  .main .about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main .about img {
+    display: flex;
+    width: 50vw;
+  }
+
+  .main .specialties h1 {
+    font-size: 3.5rem;
+    max-width: 40rem;
+  }
+
+  .main .specialties_card {
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+  }
+
+  .main .local {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    width: 100vw;
+  }
+
+  .main .about .articleAbout .textAbout h1 {
+    font-size: 3rem;
+  }
+
+  .main .about .articleAbout .textAbout p {
+    font-size: 1.4rem;
+  }
+
+  .main .specialties {
+    background-color: white;
+    padding: 1rem;
+  }
+
+  .main .local {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .main .local div {
+    margin-bottom: 2rem;
+  }
+
+  .main .local .address div {
+    padding-bottom: 0;
+  }
+
+  .main .local img {
+    width: 30rem;
+    margin-left: 1rem;
+  }
+}
+
+/* .linkActive {
+  text-decoration: underline;
+  text-decoration-color: #6eb7d8;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+}
+
+.linkActive:hover {
+  text-decoration-color: #628aa1;
+  transition: 0.1s;
+} */
